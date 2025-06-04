@@ -5,9 +5,8 @@
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Build Status](https://img.shields.io/badge/Build-Passing-brightgreen.svg)]()
 
-*Final Year Project - University of Greenwich*
+Real-time Varroa mite detection system using YOLOv8 and edge AI. Trained on 15,000+ images, it runs on Raspberry Pi 5 and Hailo-8L with 89.8% mAP@0.5. Includes a web dashboard for live results. Designed for precision beekeeping with an emphasis on small object detection and real-world deployment.
 
-An embedded computer vision system using YOLOv8 for real-time detection and monitoring of Varroa destructor mites in honey bee colonies.
 
 
 
