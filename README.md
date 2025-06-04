@@ -10,3 +10,16 @@ A lightweight **Flask-based web dashboard** visualises live detection results, t
 
 This solution contributes to **precision beekeeping** by offering a non-invasive, automated, and scalable approach to early Varroa detection.
 
+
+## Features
+
+- **Real-time detection of Varroa mites** using a custom-trained YOLOv8n model
+- **Camera-based hive monitoring** with automatic object detection on live video
+- **Runs entirely on Raspberry Pi 5 + Hailo-8L**, enabling efficient edge AI deployment
+- **Web-based dashboard** for live visualisation, metrics display, and session summaries
+- **Local data logging** of infestation ratios and detection statistics using SQLite
+- **Visual risk classification** based on infestation thresholds (low, moderate, high, critical)
+- **Email alert system** (optional) when critical infestation levels are detected
+- **Tested and validated** with unit, integration, and performance testing
+
+
