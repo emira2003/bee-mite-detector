@@ -1,5 +1,5 @@
 # bee-mite-detector  
-**Real-Time Varroa Detection Using YOLOv8 and Edge AI**
+# **Real-Time Varroa Detection Using YOLOv8 and Edge AI**
 
 This project implements a **real-time Varroa mite detection system** to assist beekeepers in monitoring honeybee health using computer vision. *Varroa destructor* is one of the leading causes of honeybee colony loss worldwide, and traditional detection methods are invasive, slow, and often unreliable.
 
