@@ -1,4 +1,4 @@
-# Bee Mite Detector - AI-Powered Varroa Mite Detection System
+# Varroa Detection Using Deep Learning: An Embedded Real-Time Detection System for Beekeeping
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://python.org)
 [![YOLOv8](https://img.shields.io/badge/YOLOv8-Latest-green.svg)](https://github.com/ultralytics/ultralytics)
