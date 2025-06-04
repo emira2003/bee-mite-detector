@@ -19,5 +19,27 @@ The detection model was trained on a dataset of over 15,000 annotated images and
 This approach contributes to precision beekeeping by enabling early intervention through embedded vision, enhancing colony management without the need for manual inspection.
 
 
+## Visual Demo
+
+The following screenshots demonstrate live detection of Varroa mites within the real-time web interface. The dashboard displays bounding boxes around detected objects, tracks infestation ratios per session, and automatically classifies risk levels based on configured thresholds.
+
+> *Note: For best results, use a webcam or hive tunnel camera positioned at the hive entrance under stable lighting conditions.*
+
+### Sample Detection Interface
+
+![Detection Example](docs/images/detection_sample.jpg)
+
+### Risk Classification Table
+
+| Risk Level | Infestation Ratio | Status               |
+|------------|-------------------|----------------------|
+| Low        | < 3%              | Healthy              |
+| Moderate   | 3% – 6%           | Caution              |
+| High       | 6% – 10%          | Warning              |
+| Critical   | > 10%             | Intervention needed  |
+
+
+
+
 
 
