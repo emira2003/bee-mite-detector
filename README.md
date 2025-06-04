@@ -18,6 +18,7 @@ The detection model was trained on a dataset of over 15,000 annotated images and
 
 This approach contributes to precision beekeeping by enabling early intervention through embedded vision, enhancing colony management without the need for manual inspection.
 
+![System Overview Animation](docs/images/systemoverview.png)
 
 ## Visual Demo
 
