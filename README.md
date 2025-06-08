@@ -32,7 +32,18 @@ The following screenshots demonstrate live detection of Varroa mites within the 
 
 ![Detection Example](docs/images/detection_example.png)
 
-### Detection Results
+
+### Risk Classification Logic
+
+| Risk Level | Infestation Ratio |
+|------------|-------------------|
+| Low        | < 5%              | 
+| Moderate   | 5–10%              |
+| High       | 10–15%             |
+| Critical   | > 15%             |
+
+
+### Summary of Key Evaluation Metrics
 
 | Model   | Precision | Recall | F1-Score | mAP\@0.5 |
 | ------- | --------- | ------ | -------- | -------- |
