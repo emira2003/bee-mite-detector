@@ -24,7 +24,7 @@ This approach contributes to precision beekeeping by enabling early intervention
 
 ## Visual Demo
 
-The following screenshots demonstrate live detection of Varroa mites within the real-time web interface. The dashboard displays bounding boxes around detected objects, tracks infestation ratios per session, and automatically classifies risk levels based on configured thresholds.
+The following screenshots demonstrate live detection of Varroa mites within the real-time web interface. The dashboard serves as the primary user interface for monitoring colony health in real time. It provides a clear and accessible overview of key metrics derived from the detection system, supporting informed decision-making in the field. Designed with responsiveness and simplicity in mind, the interface presents detection outcomes, health indicators and system status updates in an intuitive layout.
 
 > *Note: For best results, use a webcam or hive tunnel camera positioned at the hive entrance under stable lighting conditions.*
 
