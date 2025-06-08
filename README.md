@@ -18,7 +18,7 @@ The detection model was trained on a dataset of over 15,000 annotated images and
 
 This approach contributes to precision beekeeping by enabling early intervention through embedded vision, enhancing colony management without the need for manual inspection.
 
-### Real-time dynamic dashboard
+### System Overview Animation 
 
 ![System Overview Animation](docs/images/systemoverview.png)
 
@@ -32,9 +32,9 @@ The following screenshots demonstrate live detection of Varroa mites within the 
 
 ![Detection Example](docs/images/detection_example.png)
 
-### Sample Detection Interface
+### Real-time dynamic dashboard
 
-![Detection Example](docs/images/dashboard.png)
+![Real-time dynamic dashboard](docs/images/dashboard.png)
 
 
 ### Risk Classification Logic
