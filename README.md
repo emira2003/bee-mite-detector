@@ -36,10 +36,10 @@ The following screenshots demonstrate live detection of Varroa mites within the 
 
 | Risk Level | Infestation Ratio |
 |------------|-------------------|
-| Low        | < 3%              |
-| Moderate   | 3% – 6%           |
-| High       | 6% – 10%          |
-| Critical   | > 10%             | 
+| Low        | < 5%              |
+| Moderate   | 5% – 10%           |
+| High       | 10% – 15%          |
+| Critical   | > 15%             | 
 
 
 
