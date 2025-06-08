@@ -42,6 +42,28 @@ The following screenshots demonstrate live detection of Varroa mites within the 
 | Critical   | > 15%             | 
 
 
+## Technology Stack
+
+### Core Technologies
+- **YOLOv8n (Ultralytics)**: Object detection model architecture
+- **PyTorch**: Framework used for training and inference
+- **OpenCV**: Image and video processing
+- **Flask**: Backend web server for dashboard and visualisation
+- **SQLite**: Lightweight local database for detection logs
+
+### Deployment
+- **Hailo-8L AI Accelerator**: Hardware-accelerated inference using compiled `.hef` model
+- **Raspberry Pi 5**: Edge device running the full system (inference + dashboard)
+- **Hailo Dataflow Compiler**: Used to convert ONNX model to `.hef` format
+
+### Development Tools
+- **Python 3.8+**
+- **Ultralytics CLI**: For training and exporting YOLOv8 models
+- **Git** and **GitHub**: Version control and project hosting
+- **VNC / SSH**: Remote access during testing and deployment
+
+
+
 
 
 
