@@ -32,6 +32,10 @@ The following screenshots demonstrate live detection of Varroa mites within the 
 
 ![Detection Example](docs/images/detection_example.png)
 
+### Sample Detection Interface
+
+![Detection Example](docs/images/dashboard.png)
+
 
 ### Risk Classification Logic
 
