@@ -34,13 +34,12 @@ The following screenshots demonstrate live detection of Varroa mites within the 
 
 ### Risk Classification Table
 
-| Risk Level | Infestation Ratio | Status               |
-|------------|-------------------|----------------------|
-| Low        | < 3%              | Healthy              |
-| Moderate   | 3% – 6%           | Caution              |
-| High       | 6% – 10%          | Warning              |
-| Critical   | > 10%             | Intervention needed  |
-
+| Risk Level | Infestation Ratio |
+|------------|-------------------|
+| Low        | < 3%              |
+| Moderate   | 3% – 6%           |
+| High       | 6% – 10%          |
+| Critical   | > 10%             | 
 
 
 
