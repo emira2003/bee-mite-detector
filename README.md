@@ -99,34 +99,7 @@ The following screenshots demonstrate live detection of Varroa mites within the 
 
 ## System Communication Flow
 
-```
-┌─────────────────┐    CSI-2     ┌──────────────────┐
-│   HQ Camera     │─────────────▶│  Raspberry Pi 5  │
-│  (IMX477)       │              │                  │
-└─────────────────┘              │  ┌─────────────┐ │
-                                 │  │ Detection   │ │
-┌─────────────────┐    PCIe      │  │ Engine      │ │
-│  Hailo-8L       │◀─────────────┤  │ (subprocess)│ │
-│  Accelerator    │              │  └─────────────┘ │
-│  (13 TOPS)      │              │         │        │
-└─────────────────┘              │  ┌─────────────┐ │
-                                 │  │ Flask       │ │
-                                 │  │ Backend     │ │
-                                 │  │ (REST API)  │ │
-                                 │  └─────────────┘ │
-                                 │         │        │
-                                 │  ┌─────────────┐ │
-                                 │  │ SQLite      │ │
-                                 │  │ Database    │ │
-                                 │  └─────────────┘ │
-                                 └──────────────────┘
-                                          │ HTTP/JSON
-                                          ▼
-                                 ┌──────────────────┐
-                                 │  Web Dashboard   │
-                                 │  (HTML/CSS/JS)   │
-                                 └──────────────────┘
-```
+
 
 ### Data Flow Pipeline
 
