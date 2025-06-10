@@ -85,7 +85,7 @@ The following screenshots demonstrate live detection of Varroa mites within the 
 #### Backend & Data Management
 - **Flask** - Web server framework for REST API and system orchestration
 - **SQLite** - Embedded database for session logging and historical data
-- **Python 3.x** - Primary programming language with multiprocessing support
+- **Python 3.9** - Primary programming language with multiprocessing support
 
 #### Frontend & Visualization
 - **HTML/CSS/JavaScript** - Responsive web dashboard
