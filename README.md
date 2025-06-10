@@ -101,25 +101,6 @@ The following screenshots demonstrate live detection of Varroa mites within the 
 
 ![Dataflow](docs/images/dataflow.png)
 
-### Data Flow Pipeline
-
-1. **Image Capture**: Camera continuously streams frames via CSI-2 to Raspberry Pi
-2. **Preprocessing**: Detection engine resizes frames to 640×640 and normalizes pixel values
-3. **AI Inference**: Hailo-8L accelerator processes frames through YOLOv8n model
-4. **Result Processing**: Detection engine parses bounding boxes, counts objects, calculates metrics
-5. **Data Logging**: Backend receives structured logs, updates statistics, stores to SQLite
-6. **API Serving**: Flask exposes REST endpoints (`/getStats`, `/getTimeSeries`) with JSON responses
-7. **Frontend Updates**: Dashboard polls API every 1-2 seconds, updates charts and indicators
-8. **Session Management**: System tracks detection sessions, generates email reports, handles recovery
-
-### Inter-Process Communication
-
-- **Detection Subprocess ↔ Flask Backend**: Text-based logging via stdout parsing
-- **Backend ↔ Database**: SQL queries through Python SQLite interface
-- **Backend ↔ Frontend**: RESTful HTTP APIs with JSON payloads
-- **Hardware ↔ Software**: Hailo Python SDK for accelerator control, OpenCV for camera access
-
----
 
 # Installation & Deployment Guide
 
