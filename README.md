@@ -183,6 +183,6 @@ python3 -c "from hailo_platform import HEF; print('Hailo import successful')"
 ### 3.1 Clone Repository
 ```bash
 # On Raspberry Pi
-git clone https://github.com/yourusername/varroa-detection-system.git
+git clone (https://github.com/emira2003/bee-mite-detector.git)
 cd varroa-detection-system
 ```
