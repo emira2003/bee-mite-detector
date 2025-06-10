@@ -99,7 +99,7 @@ The following screenshots demonstrate live detection of Varroa mites within the 
 
 ## System Communication Flow
 
-
+![Dataflow](docs/images/dataflow.png)
 
 ### Data Flow Pipeline
 
