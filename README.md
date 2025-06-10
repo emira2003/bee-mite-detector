@@ -181,7 +181,8 @@ python3 -c "from hailo_platform import HEF; print('Hailo import successful')"
 ## Step 3: System Setup
 
 ### 3.1 Clone Repository
-
-#On Raspberry Pi
+```bash
+# On Raspberry Pi
 git clone https://github.com/yourusername/varroa-detection-system.git
 cd varroa-detection-system
+```
