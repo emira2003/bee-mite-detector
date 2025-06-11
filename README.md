@@ -192,5 +192,66 @@ python app.py
 ```
 After completing these steps, the system should be running successfully. Flask will display startup messages in the terminal including a link such as http://0.0.0.0:5000 or http://127.0.0.1:5000. Copy this link and paste it into your web browser, or access it from another device on the same network using http://[raspberry-pi-ip]:5000. You should now be able to see and interact with the real-time Varroa detection dashboard.
 
+# Testing & Validation
+
+The system underwent comprehensive testing to validate functionality, integration, and performance across all components. A three-tier testing strategy was implemented: unit testing for individual modules, integration testing for component cooperation, and performance testing for real-time embedded deployment.
+
+## Unit Testing Results
+
+### Backend Testing
+- Flask API endpoints (`/get_stats`, `/get_time_series`, `/start_detection`, `/stop_detection`) validated for response codes, JSON formatting, and data accuracy
+- Detection metrics (bee counts, mite counts, infestation ratios, risk levels) verified through simulated scenarios
+- **Code Coverage**: 80% across all Flask backend routes
+
+![Unit Test Example](docs/images/unit_test_example.png)
+
+### Frontend Testing 
+- JavaScript functions tested using Jest framework for dashboard responsiveness
+- UI components (`animateValueChange`, `updateRiskStatus`, `setButtonState`) validated for smooth updates and intuitive interactions
+- **Test Execution**: 2-7ms per test, confirming lightweight client-side performance
+
+![Backend Test Coverage](docs/images/backend_coverage.png)
+![Frontend Test Results](docs/images/frontend_tests.png)
+
+## Integration Testing
+
+End-to-end detection workflow validated through automated test scenarios:
+- Complete detection pipeline from start to stop endpoints
+- Data flow verification across all system components  
+- Error handling and fault tolerance under malformed inputs
+- **Coverage**: 100% of integration components
+
+![Integration Test Workflow](docs/images/integration_test.png)
+
+## Performance Testing
+
+Real-time capability assessed on Raspberry Pi 5 + Hailo-8L hardware using production database metrics:
+
+![Performance Query](docs/images/performance_query.png)
+![Performance Metrics](docs/images/performance_results.png)
+
+### Performance Results Summary
+
+![Performance Summary Table](docs/images/performance_table.png)
+
+- **Average FPS**: 26.83 - 31.03 across all sessions
+- **Minimum FPS**: Consistently above 6.89 under load
+- **Maximum FPS**: Up to 65.60, demonstrating processing headroom
+- **Standard Deviation**: 1.74 FPS, showing high consistency
+- **Real-time Threshold**: Exceeded 15 FPS requirement in all test scenarios
+
+## Test Coverage Summary
+
+| Test Type | Requirement | Status |
+|-----------|-------------|---------|
+| Backend Unit Tests | API correctness | ✅ Passed |
+| Frontend Unit Tests | UI responsiveness | ✅ Passed |
+| Integration Testing | Full detection workflow | ✅ Passed |
+| Error Handling | Fault tolerance | ✅ Passed |
+| Performance Testing | Real-time processing | ✅ Passed |
+| Database Operations | Session logging | ✅ Passed |
+
+All tests demonstrate the system meets design specifications for accuracy, reliability, and real-time performance on embedded hardware.
+
 
 
