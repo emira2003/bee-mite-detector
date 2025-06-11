@@ -37,22 +37,6 @@ The following screenshots demonstrate live detection of Varroa mites within the 
 ![Real-time dynamic dashboard](docs/images/dashboard.png)
 
 
-### Risk Classification Logic
-
-| Risk Level | Infestation Ratio |
-|------------|-------------------|
-| Low        | < 5%              | 
-| Moderate   | 5–10%              |
-| High       | 10–15%             |
-| Critical   | > 15%             |
-
-
-### Summary of Key Evaluation Metrics
-
-| Model   | Precision | Recall | F1-Score | mAP\@0.5 |
-| ------- | --------- | ------ | -------- | -------- |
-| YOLOv8n | 0.861     | 0.842  | 0.84     | 0.898    |
-
 
 # Technology Stack & System Architecture
 
