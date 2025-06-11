@@ -187,5 +187,23 @@ git clone https://github.com/emira2003/bee-mite-detector
 ```
 
 ```bash
+# Enter the cloned folder
 cd bee-mite-detector
 ```
+```bash
+# Create the Environmet for Hailo
+source setup_env.sh
+```
+```bash
+# Install flask in order to run the Server
+pip install flask python-dotenv
+```
+```bash
+# Initialise the database
+python bee_health_db.py
+```
+```bash
+# Run the server 
+python app.py
+```
+
