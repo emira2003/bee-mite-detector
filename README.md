@@ -7,6 +7,7 @@
 
 *Final Year Project - University of Greenwich*
 
+📄 **[Read the Full Research Paper](docs/Varroa_Detection_Research_Paper.pdf)**
 
 ## Project Overview
 
