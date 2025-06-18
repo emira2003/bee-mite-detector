@@ -203,6 +203,14 @@ python app.py
 ```
 After completing these steps, the system should be running successfully. Flask will display startup messages in the terminal including a link such as http://0.0.0.0:5000 or http://127.0.0.1:5000. Copy this link and paste it into your web browser, or access it from another device on the same network using http://[raspberry-pi-ip]:5000. You should now be able to see and interact with the real-time Varroa detection dashboard.
 
+## References
+
+- [Ultralytics YOLOv8](https://github.com/ultralytics/ultralytics)
+- [Hailo Model Zoo](https://github.com/hailo-ai/hailo_model_zoo)
+- [hailo-rpi5-examples](https://github.com/hailo-ai/hailo-rpi5-examples)
+- Public datasets hosted on [Roboflow](https://roboflow.com)
+
+
 
 
 
